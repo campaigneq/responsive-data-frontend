@@ -1,0 +1,92 @@
+body {
+	background:#eee;
+}
+a {
+		color:#8600ed;
+}
+.main-bg {
+	background:#fff;
+}
+.home {
+	text-align:center;
+}
+h2 {
+	font-size:20px;
+	margin:0 0 12px;
+}
+
+.home-logo-bg {
+	background:#fff;
+}
+.home-logo-login {
+	float:right;
+}
+.home-logo {
+	border-bottom:1px solid #ddd;
+	padding:10px 0;
+}
+
+.home-1-bg {
+	background:url(../images/home-bg-grid.png) repeat center;
+}
+.home-1 {
+	min-height:260px;
+	padding:360px 0 90px;
+	position:relative;
+	overflow:hidden;
+}
+.home-1 h1 {
+	background: #fff;
+	display:inline-block;
+	font-size:30px;
+	padding:8px;
+}
+.home-1 h1 a {
+	display:block;
+	font-size:20px;
+	padding:8px;
+}
+.home-1 .home-hero {
+	position:absolute;
+	bottom:260px;
+	left: -9999px;
+	right: -9999px;
+	margin: auto;
+}
+
+.home-2-bg {
+	background:#333;
+	padding:20px;
+}
+.home-2 h3 {
+	font-size:18px;
+	color:#fff;
+}
+
+.home-icons {
+	margin:40px auto;
+	width:60%;
+}
+.home-icons img {
+	margin:0 auto;
+}
+
+
+
+/* Landscape mobile device below 780px */
+@media screen and (max-width: 992px) {
+	.home-1 img {
+		bottom:210px;
+	}
+	.home-2 li {
+		display:block;
+		margin:10px 0;
+	}
+}
+
+/* Portrait mobile device */
+@media screen and (max-width: 500px) {
+	.home-1 img {
+		bottom:240px;
+	}
+}
